@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 ## edit below variables as per your requirements -
-REPO_NAME = "REPO_NAME"
-AUTHOR_USER_NAME = "c17hawke"
+REPO_NAME = "FSDS-DVC-NLP-Project-with-docs1"
+AUTHOR_USER_NAME = "udaya276"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
 
@@ -17,8 +17,8 @@ setup(
     description="A small package for DVC",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
-    author_email="sunny.c17hawke@gmail.com",
+    url=f"https://github.com/udaya276/FSDS-DVC-NLP-Project-with-docs1",
+    author_email="udaya276@gmail.com",
     packages=[SRC_REPO],
     license="MIT",
     python_requires=">=3.6",
